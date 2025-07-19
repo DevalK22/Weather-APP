@@ -4,65 +4,64 @@ A clean and responsive weather application built using **HTML**, **CSS (Bootstra
 
 ---
 
-## 🚀 Live Preview
+## 🚀 Live Preview  
+👉 [https://devalk22.github.io/Weather-APP/](https://devalk22.github.io/Weather-APP/)
 
-You can run this app locally by opening `index.html` in your browser.
+You can also run this app locally by opening `index.html` in your browser.
 
-> _(Optional)_ Deploy this project with GitHub Pages or Netlify for live sharing.
+> _Tip:_ This project is deployed using GitHub Pages. You can fork and deploy your own version in minutes!
 
 ---
 
 ## 🔍 Features
 
-- 🔎 Search weather by city name
-- 🌡️ Displays temperature in Celsius
-- 🕒 Shows local time of the city
-- 💧 Humidity and 💨 wind info
-- 🌍 City, region, and country name
-- 🖼️ Weather condition icon and text
-- 📱 Fully responsive design with Bootstrap
+- 🔎 Search weather by city name  
+- 🌡️ Displays temperature in Celsius  
+- 🕒 Shows local time of the city  
+- 💧 Humidity and 💨 wind speed  
+- 🌍 City, region, and country info  
+- 🖼️ Dynamic weather icon and description  
+- 📱 Fully responsive design with Bootstrap 5
 
 ---
 
 ## 🛠️ Built With
 
-- HTML5
-- CSS3 (with [Bootstrap 5](https://getbootstrap.com/))
-- JavaScript (ES6)
-- [WeatherAPI.com](https://www.weatherapi.com/) via [RapidAPI](https://rapidapi.com/weatherapi/api/weatherapi-com)
+- **HTML5**
+- **CSS3** (via [Bootstrap 5](https://getbootstrap.com/))
+- **JavaScript (ES6)**
+- **[WeatherAPI.com](https://www.weatherapi.com/)** via [RapidAPI](https://rapidapi.com/weatherapi/api/weatherapi-com)
 
 ---
 
 ## 📂 Project Structure
 
 ```
-weather-app/
+Weather-APP/
 │
 ├── index.html        # Main UI
-├── script.js         # JavaScript for fetching and displaying weather
+├── script.js         # Handles API calls and DOM manipulation
 ├── README.md         # Project documentation
-
 ```
 
 ---
 
-## 🔑 API Key Instructions
+## 🔑 API Key Setup
 
 This app uses [WeatherAPI.com](https://www.weatherapi.com/) through [RapidAPI](https://rapidapi.com/weatherapi/api/weatherapi-com).
 
-### Replace the API Key
+### Steps to get and add your API Key:
 
-In `script.js`, replace the sample key with your actual RapidAPI key:
+1. Sign up at [RapidAPI](https://rapidapi.com).
+2. Subscribe to **WeatherAPI**.
+3. Copy your **X-RapidAPI-Key**.
+4. Open `script.js` and replace:
 
 ```javascript
 const apiKey = 'YOUR_RAPIDAPI_KEY';
 ```
 
-### Steps to get your API Key:
-
-1. Create a free account on [RapidAPI](https://rapidapi.com).
-2. Subscribe to the WeatherAPI.
-3. Copy your key and paste it into the script.
+> 🔐 **Never commit your actual API key to public repositories.**
 
 ---
 
@@ -70,32 +69,32 @@ const apiKey = 'YOUR_RAPIDAPI_KEY';
 
 1. Clone or download this repository.
 2. Open the folder in your code editor.
-3. Run `index.html` in your browser.
-4. Enter any city name and click "Search" to see live weather data.
+3. Open `index.html` in a browser.
+4. Enter any city name and click "Search" to view live weather data.
 
 ---
 
-## 📈 Future Improvements
+## 📈 Future Enhancements
 
-- Add °F/°C temperature toggle
-- Use user's current location (Geolocation API)
-- Improve error handling and suggestions
-- Save last searched cities using localStorage
+- Toggle between °C and °F  
+- Use Geolocation API for current location weather  
+- Improved error messages and suggestions  
+- Store last searched cities using `localStorage`
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use it for learning or development.
+This project is licensed under the **MIT License** — free for personal and commercial use with attribution.
 
 ---
 
 ## 👤 Author
 
 **Deval Kaku**  
-[GitHub](https://github.com/Deval_K22)  
-[LinkedIn](https://linkedin.com/in/deval_kaku)
+- 🐙 [GitHub](https://github.com/Deval_K22)  
+- 💼 [LinkedIn](https://linkedin.com/in/deval_kaku)
 
 ---
 
-> Created with ❤️ using HTML, CSS, JavaScript, and WeatherAPI
+> Created with ❤️ using HTML, CSS, JavaScript, and WeatherAPI.
